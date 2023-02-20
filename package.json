@@ -64,8 +64,12 @@
   "cordova": {
     "plugins": {
       "onesignal-cordova-plugin": {},
-      "cordova-plugin-geolocation": {},
-      "phonegap-plugin-barcodescanner": {},
+      "cordova-plugin-geolocation": {
+        "GPS_REQUIRED": "true"
+      },
+      "phonegap-plugin-barcodescanner": {
+        "ANDROID_SUPPORT_V4_VERSION": "27.+"
+      },
       "cordova-plugin-inappbrowser": {}
     }
   }
