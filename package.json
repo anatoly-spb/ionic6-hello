@@ -55,6 +55,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
     "onesignal-cordova-plugin": "^3.3.0",
+    "phonegap-plugin-barcodescanner": "^8.1.0",
     "ts-node": "~8.3.0",
     "typescript": "~4.8.4"
   },
@@ -62,7 +63,8 @@
   "cordova": {
     "plugins": {
       "onesignal-cordova-plugin": {},
-      "cordova-plugin-geolocation": {}
+      "cordova-plugin-geolocation": {},
+      "phonegap-plugin-barcodescanner": {}
     }
   }
 }
